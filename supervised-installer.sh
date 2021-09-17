@@ -28,7 +28,7 @@ DOCKER_REPO=homeassistant
 SERVICE_DOCKER="docker.service"
 SERVICE_NM="NetworkManager.service"
 
-FILE_DOCKER_CONF="/etc/docker/daemon.json"
+FILE_DOCKER_CONF="/var/snap/docker/current/config/daemon.json"
 FILE_INTERFACES="/etc/network/interfaces"
 FILE_NM_CONF="/etc/NetworkManager/NetworkManager.conf"
 FILE_NM_CONNECTION="/etc/NetworkManager/system-connections/default"
